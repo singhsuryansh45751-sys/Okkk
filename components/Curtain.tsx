@@ -32,7 +32,7 @@
  *
  * Usage B — redirect on completion (recommended if smoothness matters most):
  *   <ShowtimeCountdown
- *     targetDate={new Date('2026-08-11T00:00:00+05:30')}
+ *     targetDate={new Date('2026-11-14T00:00:00+05:30')}
  *     songSrc="/song.mp3"
  *     redirectTo="/live"
  *   />
@@ -91,7 +91,7 @@ interface Remaining {
   seconds: number;
 }
 
-const DEFAULT_TARGET = new Date('2026-11-11T00:00:00+05:30');
+const DEFAULT_TARGET = new Date('2026-11-14T00:00:00+05:30');
 
 async function getRemaining(targetTime: number) {
   const res = await fetch('/api/time', { cache: 'no-store' });
@@ -118,10 +118,10 @@ type UnitKey = 'days' | 'hours' | 'minutes' | 'seconds';
 
 export default function ShowtimeCountdown({
   targetDate,
-  tickerText = 'HAPPY BIRTHDAY SWEETY ·',
-  marqueeTitle = "Sweety's Birthday",
-  marqueeSub = "forever yours, made with all my love for Sweety ❤️",
-  doorsText = 'celebrating Sweety',
+  tickerText = 'HAPPY BIRTHDAY NIDHI ·',
+  marqueeTitle = "Brownie's Birthday",
+  marqueeSub = "forever yours, made with all my love for my Baby❤️",
+  doorsText = 'celebrating Brownie',
   songSrc,
   songVolume = 0.6,
   redirectTo,

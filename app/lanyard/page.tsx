@@ -15,10 +15,10 @@ export default function LanyardPage() {
       cardColor: "#1a1612",
       strapText: "VIP ALL ACCESS PASS · CINEMA",
       strapLabel: "BIRTHDAY PREMIERE 2026",
-      title: "SWEETY'S SPECIAL GUEST",
-      subtitle: "FRONT ROW ACCESS · NOV 11, 2026",
-      name: "Alex Morgan",
-      role: "Honored Guest",
+      title: "NIDHI SPECIAL GUEST",
+      subtitle: "FRONT ROW ACCESS · NOV 14, 2026",
+      name: "MY HEART",
+      role: "LOVE OF MY LIFE",
     },
     velvet: {
       strapColor: "#591418",
@@ -28,7 +28,7 @@ export default function LanyardPage() {
       strapLabel: "THEATRE ROYAL",
       title: "SHOWTIME PREMIERE",
       subtitle: "MIDNIGHT CURTAIN CALL · IST",
-      name: "Alex Morgan",
+      name: "My HEART",
       role: "VIP Passholder",
     },
     cream: {
@@ -39,7 +39,7 @@ export default function LanyardPage() {
       strapLabel: "DESIGN WEEK 2026",
       title: "THE FUTURE IS HANDMADE",
       subtitle: "Design Week · Vol. 2 · 2026",
-      name: "Alex Morgan",
+      name: "My heart ",
       role: "Documentation",
     },
   };
